@@ -1,12 +1,12 @@
 import * as firebase from 'firebase';
 
 const config = {
-    apiKey: 'AIzaSyCmj3qcp2qadpYCmOiwGQ2M3XrBbw8o1Zs',
-    authDomain: 'pruebaabcd1-dea0d.firebaseapp.com',
-    databaseURL: 'https://pruebaabcd1-dea0d.firebaseio.com',
-    projectId: 'pruebaabcd1-dea0d',
-    storageBucket: 'pruebaabcd1-dea0d.appspot.com',
-    messagingSenderId: '475392396312',
+    apiKey: process.env.API_KEY,
+    authDomain: process.env.AUTH_DOMAIN,
+    databaseURL: process.env.DATANASE_URL,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.TORAGE_BUCKET,
+    messagingSenderId: process.env.MESSAGIN_SENDER_ID,
 };
 
 if (!firebase.apps.length) {
