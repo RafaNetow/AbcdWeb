@@ -1,20 +1,20 @@
 import React from 'react'
 import AppBar from './AppBar/AppBar.jsx'
 import { withStyles } from '@material-ui/core/styles'
+import Grid from '@material-ui/core/Grid'
 const styles = {
-	root:{
-		margin:0
+	root: {
+		margin: 0
 	}
 }
-class HomeComponent extends React.Component {
+class TopInfo extends React.Component {
 	render() {
 		const { classes } = this.props
-		return(
+		return (
 			<div className={classes.root}>
-				<AppBar/>
-				Home
+				
 			</div>
 		)
 	}
 }
-export default withStyles(styles)(HomeComponent)
+export default withStyles(styles)(TopInfo)

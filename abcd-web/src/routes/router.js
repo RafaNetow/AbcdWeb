@@ -5,7 +5,7 @@ import * as routes from './index.js'
 import Home from '../components/Home.jsx'
 import Teachers from '../components/ProfileTeachers.jsx'
 import AboutUs from '../components/AboutUs.jsx'
-import Events from '../components/Event.jsx'
+import Events from '../components/Events.jsx'
 import Admin from '../components/Admin.jsx'
 
 
